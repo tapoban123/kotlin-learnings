@@ -67,3 +67,13 @@
         }
     }
     ```
+
+7. To navigate to another screen use the following function:
+    ```kotlin
+    navController.navigate(
+        ScreenB(
+            name = "Willium",
+            age = 25
+        )
+    )
+    ```
